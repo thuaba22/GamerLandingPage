@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600;700&family=Lato:wght@400;700;900&family=Open+Sans:wght@400;700;800&family=Work+Sans:wght@400;500;600;700;800&display=swap');
+*{
+    box-sizing: border-box;
+}
+/* shared styles */
+body{
+    font-family: 'Work Sans', sans-serif;
+    margin: 0;
+}
+/* nav-bar style section */
+.nav-container{
+    min-height: 50px;
+    max-width: 1400px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+}
+.nav-container img{
+    width: 90px;
+    object-fit: cover;
+    margin-right: 10px;
+    padding-left: 10px;
+}
+.logo-items{
+    width: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo-items a{
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #3C354F;
+
+}
+.logo-container{
+    display: flex;
+    align-items: center;
+    width: 50%;
+}
+.logo-container p{
+    font-size: 45px;
+    font-weight: 700;
+    color: #0B0223;
+}
+.logo-items .follow-btn{
+    border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+padding: 10px 20px;
+}
+.follow-btn i{
+    padding-left: 10px;
+
+}
+.g-part{
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
