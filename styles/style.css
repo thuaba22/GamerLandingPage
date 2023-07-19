@@ -181,6 +181,7 @@ padding: 10px 20px;
     width: 100%;
     height: 100%;
     background-color: rgba(0,0,0,0.5);
+    border: 2px solid #F948B2;
     border-radius: 8px;
     display: flex;
     flex-direction: column;
@@ -265,4 +266,39 @@ padding: 10px 20px;
 background-clip: text;
 -webkit-background-clip: text;
 -webkit-text-fill-color: transparent;
+}
+/* varieties-game-play starts here */
+.varieties-game-container{
+    min-height: 300px;
+    margin: 0 auto;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+.btn-container{
+    padding: 100px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 35px;
+   
+}
+.game-btn{
+    display: flex;
+    align-items: center;
+    gap:5px;
+    border: 2px solid transparent;    
+    border-radius: 50px;
+    background: #FFF;
+    transition: border-color 0.3s, color 0.3s;
+    cursor: pointer;
+    
+}
+.game-btn:hover {
+    border-color:#FF42A5;
+    color:#FF42A5;
+}
+.game-btn p{
+    color: #0B0223;
+    font-size: 10px;
+    font-weight: 600;
+    padding-left: 5px;
 }
