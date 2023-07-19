@@ -52,13 +52,58 @@
         padding: 15px 30px;
         font-size: 10px;
     }
+    /* funny videos section */
+    .grid-container{
+        grid-template-columns:1fr;
+        flex-direction: column;
+        width: 90%;
+    }
+    .single-card{
+        position: relative;
+        overflow: hidden;
+    }
+    .overlay-part{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgba(0,0,0,0.5);
+        border-radius: 8px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        opacity: 0;
+        transition: opacity 0.3s ease;
+    
+    }
+    .play-btn{
+        font-size: 48px;
+        color: white;
+    }
+    .play-title{
+        background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+        background-clip: text;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        margin-top: 10px;
+    }
+    .single-card:hover .overlay-part {
+        opacity: 1;
+    }
+    .fv-des{
+        font-size: 10px;
+    }
 
 }
 @media screen and (min-width:576px) and (max-width:960px){
+    /* nav style section */
     .logo-items a{
         font-size: 0.7rem;
         
     }
+    /* play-goat style section */
     .play-goat-container{
         flex-direction: column;
         
