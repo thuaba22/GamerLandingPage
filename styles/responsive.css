@@ -10,12 +10,69 @@
     .logo-items a{
         margin-bottom: 35px;
     }
+    /* nav-bar section ends here */
+    /* play like goat section */
+    .play-goat-container{
+        flex-direction: column;
+        
+        
+    }
+    .play-goat-text{
+        width: 90%;
+        margin: 0 auto;
+       
     
+    }
+    .play-goat-text h2{
+        font-size: 20px;
+    }
+    .play-goat-text h1{
+        font-size: 30px;
+    }
+
+    
+    .play-goat-text p{
+        font-size: 10px;
+        text-align: center;
+    }
+    .play-icons{
+        margin-right: 5px;
+    }
+    .play-goat-img{
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+
+    .btn-1{
+        padding: 10px 30px;
+        font-size: 10px;
+    }
+    .btn-2{
+        padding: 15px 30px;
+        font-size: 10px;
+    }
+
 }
 @media screen and (min-width:576px) and (max-width:960px){
     .logo-items a{
         font-size: 0.7rem;
         
+    }
+    .play-goat-container{
+        flex-direction: column;
+        
+        
+    }
+    .play-goat-text{
+        width: 90%;
+        margin: 0 auto;
+       
+    
+    }
+    .play-goat-img{
+        width: 90%;
+        margin: 0 auto;
     }
 }
 
