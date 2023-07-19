@@ -213,5 +213,56 @@ padding: 10px 20px;
 .grid-container p{
     text-align: center;
 }
+/* online anywhere section */
+.online-anywhere-container{
+    min-height: 600px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
-
+}
+.online-anywhere-text{
+    width: 50%;
+}
+.online-anywhere-img{
+    width: 50%;
+    position: relative;
+}
+.online-anywhere-img img{
+    width: 70%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+}
+.img-part{
+    height:218px;
+    width: 265px;
+    font-size: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 60%;
+    left:0;
+    
+}
+.online-anywhere-text{
+    margin-right: 50px;
+    text-align: right;
+}
+.online-anywhere-text h2{
+    font-size: 48px;
+    font-weight: 700;
+}
+.online-anywhere-text p{
+    color: #534C64;
+    font-size: 15px;
+    font-weight: 400;
+}
+.playinst{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
